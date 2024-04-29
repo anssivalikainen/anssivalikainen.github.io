@@ -1,0 +1,212 @@
+header {
+    background-color: #161925;
+    width: 100%;
+}
+header img {
+    position: static;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 200px;
+}
+header h1 {
+    position: relative;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    color: #F4E409;
+    font-family: permanent marker;
+}
+header h3 {
+    position: relative;
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-bottom: 30px;
+    color: #F4E409;
+    font-family: permanent marker;
+}
+.topnav {
+    background-color: #161925;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #F4E409;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: open sans;
+}
+.topnav a:hover {
+    background-color: #8C2F39;
+    color: #161925;
+    transition: 0.5s;
+}
+.topnav a.active {
+    background-color: #F4E409;
+    color: #161925;
+}
+section {
+    width: 100%;
+    height: 900px;
+    background-color: #444444;
+    background-image: url("tausta1.jpg");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+section .taide{
+    height: 800px;
+}
+section button {
+    font-family: open sans;
+    font-size: 28px;
+    color: #161925;
+    border: 3px;
+    padding: 12px;
+    background-color: #F4E409;
+    border-color: #161925;
+    border-style: solid;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: auto;
+    margin-top: 80px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+section .taide button{
+    font-family: open sans;
+    font-size: 28px;
+    color: #161925;
+    border: 3px;
+    padding: 12px;
+    background-color: #F4E409;
+    border-color: #161925;
+    border-style: solid;
+    border-radius: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+section button:hover {
+    background-color: #8C2F39;
+    transition: 0.5s;
+}
+section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 500px;
+    max-width: 100%;
+}
+section video, iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+section p{
+    padding: 20px;
+    border: #161925;
+    border-radius: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: open sans;
+    background-color: #F4E409;
+}
+* {
+    box-sizing: border-box;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: open sans;
+  }
+  
+  input[type=laheta] {
+    background-color: #F4E409;
+    color: black;
+    padding: 12px;
+    border: 3px;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  input[type=laheta]:hover {
+    background-color: #8C2F39;
+    transition: 0.5s;
+  }
+  
+  /* Style the container/contact section
+  .container h2{
+    margin: auto;
+    border-radius: 20px;
+    border-style: solid;
+    border: 3px;
+    color: #161925;
+    background-color: #F4E409;
+    padding: 10px;
+  } */
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    background-color: #F4E409;
+  }
+  .column img{
+    width: 383px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  footer img {
+    width: 60px;
+}
+footer {
+    background-color: #F4E409;
+    font-family: open sans;
+    padding: 30px;
+    margin: 10px 0px 10px 0px;
+    height: 200px;
+}
+footer li {
+    font-size: 18px;
+}
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;      
+    }
+    section  {
+        height: 1150px;
+    }
+    
+  }
